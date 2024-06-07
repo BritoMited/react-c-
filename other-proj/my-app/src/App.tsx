@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import ConsultaCEP from './components/pages/cep/ConsultaCEP';
+import CepConsultar from './components/pages/cep/cep-consulta';
+import ProdutoListar from './components/pages/produto/produto-listar';
 
 function App() {
 
   return (
     <div>
       <h1>kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk</h1>
-      <ConsultaCEP></ConsultaCEP>
+      <CepConsultar></CepConsultar>
+      <ProdutoListar></ProdutoListar>
     </div>
   );
 }
